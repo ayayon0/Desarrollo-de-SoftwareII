@@ -1,0 +1,20 @@
+ayayon@ayayon-HP:~/uni/desarrollo_II/tarea2$ git log
+commit dfcfbf8b778a3b7c9118ed263dd3124aa88ec6ba (HEAD -> ramab, origin/ramab)
+Author: IF616AIN_204803 <204803@unsaac.edu.pe>
+Date:   Wed Sep 4 06:13:20 2024 -0500
+
+    modificacion desde rama b
+
+commit 3bbc9815221b0c3155cbcb0584cd5759a07d882a (origin/master, master)
+Author: IF616AIN_204803 <204803@unsaac.edu.pe>
+Date:   Wed Sep 4 05:58:34 2024 -0500
+
+    creacion de archivo tarea2 y texto de prueba
+
+commit 0cce369a20deeaaf8a037add82bff37c6286e9e9
+Author: IF616AIN_204803 <204803@unsaac.edu.pe>
+Date:   Wed Sep 4 04:59:55 2024 -0500
+
+    archivos movidos a tarea 1
+
+

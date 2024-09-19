@@ -1,4 +1,4 @@
-name: CI/CD Pipeline
+name: ciCdPipeline
 
 on:
   push:
@@ -7,24 +7,25 @@ on:
 
 jobs:
   release:
-    name: Release
+    name: release
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
+      - name: checkoutCode
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
+      - name: setUpNodeJs
         uses: actions/setup-node@v2
         with:
           node-version: '14'
 
-      - name: Install Dependencies
+      - name: installDependencies
         run: npm install
 
-      - name: Run Tests
+      - name: runTests
         run: npm test
 
-      - name: Semantic Release
+      - name: semanticRelease
         run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
